@@ -30,8 +30,6 @@ patch -d packages/apps/LockClock              -p1 -s -N --no-backup-if-mismatch 
 patch -d packages/apps/Settings               -p1 -s -N --no-backup-if-mismatch < $PATCHES/apps-Settings-01.patch
 patch -d packages/apps/Settings               -p1 -s -N --no-backup-if-mismatch < $PATCHES/apps-Settings-02.patch
 patch -d packages/apps/Settings               -p1 -s -N --no-backup-if-mismatch < $PATCHES/apps-Settings-03.patch
-patch -d packages/apps/Settings               -p1 -s -N --no-backup-if-mismatch < $PATCHES/apps-Settings-04.patch
-patch -d packages/apps/Settings               -p1 -s -N --no-backup-if-mismatch < $PATCHES/apps-Settings-05.patch
 patch -d system/core                          -p1 -s -N --no-backup-if-mismatch < $PATCHES/system-core-01.patch
 patch -d system/core                          -p1 -s -N --no-backup-if-mismatch < $PATCHES/system-core-02.patch
 
