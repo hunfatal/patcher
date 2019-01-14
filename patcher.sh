@@ -2,12 +2,7 @@
 
 ROOT="${PWD}"
 REPOSITORIES=(
-    'build/make'
     'frameworks/av'
-    'frameworks/base'
-    'hardware/ril-caf'
-    'packages/apps/LockClock'
-    'packages/apps/Settings'
     'system/core'
 )
 
